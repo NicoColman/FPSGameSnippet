@@ -1,0 +1,112 @@
+[
+    {
+        "WeaponName": "AG14W",
+        "WeaponMesh": {
+            "WeaponSkeletalMesh": "/Game/Assets/Weapons/Firearms/AG14W/Meshes/SK_LPAMG_AG14W"
+        },
+        "WeaponStaticMeshes": {
+            "SOCKET_Magazine": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/AG14W/Meshes/SM_LPAMG_AG14W_Magazine_Default"
+            },
+            "SOCKET_Forestock": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/AG14W/Meshes/SM_LPAMG_AG14W_Forestock_Default"
+            },
+            "SOCKET_Muzzle": {
+                "SocketName": "SOCKET_Forestock",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Silencer_01"
+            },
+            "SOCKET_Grip": {
+                "SocketName": "SOCKET_Forestock",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Grip_Angled"
+            },
+            "SOCKET_Laser": {
+                "SocketName": "SOCKET_Forestock",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser"
+            },
+            "SOCKET_LaserBeam": {
+                "SocketName": "SOCKET_Laser",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser_Beam"
+            }
+        },
+        "FPWeaponDataAsset": "/Game/Blueprints/DataAssets/Weapons/FPWeapons/Firearms/DA_W_FP_FA_AG14W",
+        "TPWeaponDataAsset": "/Game/Blueprints/DataAssets/Weapons/TPWeapons/Firearms/DA_W_TP_FA_AG14W"
+    },
+    {
+        "WeaponName": "X13",
+        "WeaponMesh": {
+            "WeaponSkeletalMesh": "/Game/Assets/Weapons/Firearms/X13/Meshes/SK_LPAMG_X13"
+        },
+        "WeaponStaticMeshes": {
+            "SOCKET_Magazine": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/X13/Meshes/SM_LPAMG_X13_Magazine_Default"
+            },
+            "SOCKET_Default": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/X13/Meshes/SM_LPAMG_X13_Barrel_Default"
+            },
+            "SOCKET_Muzzle": {
+                "SocketName": "SOCKET_Slide",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Silencer_01"
+            },
+            "SOCKET_Slide": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/X13/Meshes/SM_LPAMG_X13_Slide_Default"
+            },
+            "SOCKET_Scope": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Scope_01"
+            },
+            "SOCKET_Laser": {
+                "SocketName": "SOCKET_Default",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser"
+            },
+            "SOCKET_LaserBeam": {
+                "SocketName": "SOCKET_Laser",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser_Beam"
+            }
+        }
+    },
+    {
+        "WeaponName": "MAK12",
+        "WeaponMesh": {
+            "WeaponSkeletalMesh": "/Game/Assets/Weapons/Firearms/MAK12/Meshes/SK_LPAMG_MAK12"
+        },
+        "WeaponStaticMeshes": {
+            "SOCKET_Magazine": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/MAK12/Meshes/SM_LPAMG_MAK12_Magazine_Default"
+            },
+            "Forend": {
+                "SocketName": "",
+                "Mesh": "Game/Assets/Weapons/Firearms/MAK12/Meshes/SM_LPAMG_MAK12_Forend_Extended"
+            },
+            "SOCKET_Barrel": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Firearms/MAK12/Meshes/SM_LPAMG_MAK12_Barrel_Extended"
+            },
+            "SOCKET_Muzzle": {
+                "SocketName": "SOCKET_Barrel",
+                "Mesh": ""
+            },
+            "SOCKET_Scope": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Scope_01"
+            },
+            "SOCKET_Laser": {
+                "SocketName": "SOCKET_Barrel",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser"
+            },
+            "SOCKET_LaserBeam": {
+                "SocketName": "SOCKET_Laser",
+                "Mesh": "/Game/Assets/Weapons/Common/Meshes/SM_LPAMG_ATT_Laser_Beam"
+            },
+            "Shell": {
+                "SocketName": "",
+                "Mesh": "/Game/Assets/ExtraAssets/LowPolyAnimatedModernGuns/Art/Weapons/_Common/Meshes/SM_LPAMG_Shell_12Gauge"
+            }
+        }
+    }
+]
